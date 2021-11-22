@@ -104,7 +104,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_MINIEAP=n" >> .config  #去除可用于锐捷的 eap 客户端
         echo "CONFIG_FIRMWARE_INCLUDE_NJIT_CLIENT=n" >> .config  #去除南工网络客户端
         echo "CONFIG_FIRMWARE_INCLUDE_OPENSSH=y" >> .config  #SSH功能
-        echo "CONFIG_FIRMWARE_INCLUDE_SFTP=y" >> .config  #SFTP功能
+        echo "CONFIG_FIRMWARE_INCLUDE_SFTP=n" >> .config  #SFTP功能
         echo "CONFIG_FIRMWARE_INCLUDE_SMBD36=n" >> .config  #去除SMBD3.6功能
         echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=n" >> .config #zerotier ~1.3M
         #########################################################################################
