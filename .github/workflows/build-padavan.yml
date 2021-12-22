@@ -146,7 +146,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_TRANSMISSION_WEB_CONTROL=n" >> .config #集成远程下载的配置网页
         echo "CONFIG_FIRMWARE_INCLUDE_ARIA=n" >> .config #Aria
         echo "CONFIG_FIRMWARE_INCLUDE_ARIA_WEB_CONTROL=n" >> .config #Aria的网页控制
-        echo "CONFIG_FIRMWARE_INCLUDE_OPENSSH=y" >> .config  #SSH功能
+        echo "CONFIG_FIRMWARE_INCLUDE_OPENSSH=n" >> .config  #SSH功能
         echo "CONFIG_FIRMWARE_INCLUDE_SFTP=n" >> .config  #去除SFTP功能
         echo "CONFIG_FIRMWARE_INCLUDE_HTOP=n" >> .config  #去除HTOP功能
         echo "CONFIG_FIRMWARE_INCLUDE_NANO=n" >> .config  #去除NANO功能
